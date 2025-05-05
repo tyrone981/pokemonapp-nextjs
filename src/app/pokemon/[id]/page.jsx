@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${pokedata.name} - Pokémon Explorer,`
+    title: `${pokedata.name} - Pokémon Explorer,`,
     description: `Discover information about ${pokedata.name}, including stats, types, and more.`,
     icons: {
       icon: pokedata.image,
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${pokedata.name} - Pokémon Explorer,`
+      title: `${pokedata.name} - Pokémon Explorer,`,
       description: `Explore ${pokedata.name} on Pokémon Explorer powered by PokéAPI.`,
       images: `[pokedata.image]`,
     },
